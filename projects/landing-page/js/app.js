@@ -19,48 +19,36 @@
 */
 const sectionsData = [
     {
-        id: 'section1', title: 'Section 1', data: [`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
-    dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
-    imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget
-    bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet
-    elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo
-    nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
-    semper in tellus. Sed congue et odio sed euismod.`, `Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
-    luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
-    porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.`]
+        id: 'section1',
+        title: 'Section 1',
+        data: [
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.',
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.'
+        ]
     },
     {
-        id: 'section2', title: 'Section 2', data: [`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
-    dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
-    imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget
-    bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet
-    elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo
-    nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
-    semper in tellus. Sed congue et odio sed euismod.`, `Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
-    luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
-    porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.`]
+        id: 'section2',
+        title: 'Section 2',
+        data: [
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.',
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.'
+        ]
     },
     {
-        id: 'section3', title: 'Section 3', data: [`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
-    dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
-    imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget
-    bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet
-    elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo
-    nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
-    semper in tellus. Sed congue et odio sed euismod.`, `Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
-    luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
-    porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.`]
+        id: 'section3',
+        title: 'Section 3',
+        data: [
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.',
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.'
+        ]
     },
     {
-        id: 'section4', title: 'Section 4', data: [`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
-    dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
-    imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget
-    bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet
-    elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo
-    nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
-    semper in tellus. Sed congue et odio sed euismod.`, `Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
-    luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
-    porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.`]
+        id: 'section4',
+        title: 'Section 4',
+        data: [
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.',
+            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quasi eius nam et voluptatum minus molestiae tempore repellendus id beatae neque quod accusantium vero ipsum inventore doloribus, nisi ullam maiores.'
+        ]
     }
 ];
 let last_known_scroll_position = 0;
@@ -76,7 +64,8 @@ function createNewNavLink(text, id, className) {
     navBarItemLink.id = `${id}Link`;
     navBarItemLink.className = className;
     navBarItemLink.innerText = text;
-    navBarItemLink.href = `#${id}`;;
+    // navBarItemLink.href = `#${id}`;
+    navBarItemLink.addEventListener('click', navBarLinkOnClick);
     return navBarItemLink;
 }
 
@@ -87,15 +76,18 @@ function addPageSections() {
         if (section === null) {
             section = document.createElement('section');
             section.id = sectionData.id;
+            const div = document.createElement('div');
+            div.className = 'landing__container';
             const header = document.createElement('h2');
             const main = document.createElement('p');
             const secondary = document.createElement('p');
             header.innerText = sectionData.title;
             main.innerText = sectionData.data[0];
             secondary.innerText = sectionData.data[1];
-            section.appendChild(header);
-            section.appendChild(main);
-            section.appendChild(secondary);
+            section.appendChild(div);
+            div.appendChild(header);
+            div.appendChild(main);
+            div.appendChild(secondary);
             newSection.appendChild(section);
         }
         section.dataset.nav = sectionData.title;
@@ -178,6 +170,14 @@ function addActiveClassToLink(topSectionId) {
         }
     }
 }
+// Nav Bar Link Click Event
+//HTML scroll behaviour is used to accomplish smooth transition when nav link is clicked so no need for onClick event listner 
+function navBarLinkOnClick(e) {
+    const linkId = e.srcElement.id;
+    const sectionId = linkId.slice(0, linkId.length - 4);
+    document.getElementById(sectionId).scrollIntoView(true);
+}
+
 
 //Scroll event
 document.addEventListener('scroll', function (e) {
